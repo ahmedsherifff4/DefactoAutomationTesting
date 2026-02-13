@@ -1,122 +1,84 @@
 # 🛒 DeFacto E-Commerce Automation Testing Project
 
+🔗 **Project Source Code:**  
+👉 https://github.com/your-username/your-repository-link  
+
+---
+
 ## 📌 Project Overview
 
-This project is an end-to-end Automation Testing framework developed for the DeFacto Egypt e-commerce website.
+This project is an End-to-End Automation Testing framework developed for the DeFacto Egypt e-commerce website.
 
-The automation suite simulates real user journeys and validates critical functionalities using:
+The automation suite simulates real user journeys and validates critical business functionalities using:
 
 - Java
 - Selenium WebDriver
 - TestNG
 - ChromeDriver
 - Explicit Waits (WebDriverWait)
-- Assertions (TestNG)
+- TestNG Assertions
 
-The goal of this project is to automate real-world e-commerce workflows and validate system behavior under different user scenarios.
+The goal of this project is to automate real-world E-commerce workflows and validate system behavior under multiple user scenarios.
 
 ---
 
-## 🚀 Automated Test Scenarios
+## 🚀 Automated Test Coverage
 
-### 🔐 Authentication
+### 🔐 Authentication Module
 - Login with empty email validation
 - Valid login scenario
 - Logout validation
 
-### 🛍 Product & Shopping Flow
+### 🛍 Shopping & Cart Module
 - Navigate product categories
 - View product details
 - Add product to Wishlist
 - Add product to Cart
-- Increase & decrease product quantity
+- Increase product quantity
+- Decrease product quantity
 - Remove product from cart
 
-### 🔎 Search & Filtering
-- Search for products
-- Apply Sale filters
-- Sort products by price (Descending)
+### 🔎 Search & Filtering Module
+- Search for products (e.g., Jeans)
+- Navigate Sale section
+- Apply price sorting (Descending)
+- Apply filters and validate results
 
-### 🌍 Localization
-- Switch language between English and Arabic
-- Verify UI elements after language change
+### 🌍 Localization Testing
+- Switch language between English & Arabic
+- Validate UI text after language change
 
-### 📦 Orders
+### 📦 Orders Module
 - Access "My Orders" from user menu
-- Validate redirection to order list page
+- Validate successful redirection to Order List page
 
 ---
 
-## 🏗 Framework Structure
+## 🏗 Framework Design
 
-- `@BeforeClass` → Browser setup and initialization
-- `@Test(priority=)` → Organized test execution order
+- `@BeforeClass` → Browser setup & initialization
+- `@Test(priority=)` → Structured test execution flow
 - `@AfterClass` → Driver teardown
-- Explicit Waits used for dynamic elements
-- Assertions used for validation
+- Explicit Wait used for dynamic synchronization
+- Assertions used for validating expected behavior
 
 ---
 
-## 🛠 Tools & Technologies
+## 🛠 Technologies Used
 
-| Tool | Purpose |
-|------|----------|
+| Technology | Purpose |
+|------------|----------|
 | Java | Programming Language |
 | Selenium WebDriver | Browser Automation |
-| TestNG | Test Management & Assertions |
+| TestNG | Test Execution & Assertions |
 | ChromeDriver | Browser Driver |
-| IntelliJ IDEA | Development IDE |
+| IntelliJ IDEA | IDE |
 
 ---
 
-## ▶ How to Run the Project
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-```
-
-2. Open the project in IntelliJ IDEA.
-
-3. Make sure:
-   - Chrome browser is installed.
-   - Compatible ChromeDriver version is available.
-   - Maven dependencies are installed (if using Maven).
-
-4. Run the TestNG class:
+## 📂 Project Structure
 
 ```
-DefactoAutomationTesting.java
-```
-
-Or run using TestNG XML file if configured.
-
----
-
-## 🎯 Key Learning Outcomes
-
-- Handling dynamic web elements
-- Synchronization using Explicit Wait
-- Managing test execution order with TestNG
-- Real-world E-commerce workflow automation
-- Assertions & validation techniques
-- Java-based automation framework structure
-
----
-
-## 📈 Future Improvements
-
-- Implement Page Object Model (POM)
-- Replace Thread.sleep with better synchronization
-- Add Reporting (Extent Reports / Allure)
-- Add Cross-browser testing
-- Integrate with CI/CD (Jenkins / GitHub Actions)
-
----
-
-## 👨‍💻 Author
-
-Ahmed Sherif  
-Automation Testing Trainee  
-Orange Digital Center Egypt × Instant Software Solutions
+src
+ └── test
+      └── java
