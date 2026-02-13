@@ -82,4 +82,65 @@ The goal of this project is to automate real-world E-commerce workflows and vali
 src
  └── test
       └── java
+           └── ODCxINSTANT_Project
+                └── DefactoAutomationTesting.java
+```
 
+---
+
+## ▶ How To Run The Project
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repository-link.git
+```
+
+### 2️⃣ Open in IntelliJ IDEA
+
+### 3️⃣ Make Sure:
+- Chrome Browser is installed
+- Compatible ChromeDriver version is available
+- Maven dependencies are resolved (if using Maven)
+
+### 4️⃣ Run Tests
+
+Run directly:
+```
+DefactoAutomationTesting.java
+```
+
+Or via TestNG XML file (if configured).
+
+---
+
+## 🎯 Key Learning Outcomes
+
+- Handling dynamic web elements
+- Synchronization using Explicit Wait
+- Managing execution order with TestNG
+- Working with Assertions & Validations
+- Automating complete E-commerce workflows
+- Real-world project structuring
+
+---
+
+## 📈 Future Enhancements
+
+- Implement Page Object Model (POM)
+- Replace Thread.sleep with advanced synchronization
+- Add Reporting (Extent Reports / Allure)
+- Cross-browser testing support
+- CI/CD integration (GitHub Actions / Jenkins)
+
+---
+
+## 👨‍💻 Author
+
+Ahmed Sherif  
+Automation Testing Trainee  
+Orange Digital Center Egypt × Instant Software Solutions  
+
+---
+
+⭐ If you found this project useful, feel free to star the repository.
