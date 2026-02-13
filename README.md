@@ -93,7 +93,7 @@ src
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository-link.git
+git clone https://github.com/ahmedsherifff4/DefactoAutomationTesting/tree/main
 ```
 
 ### 2️⃣ Open in IntelliJ IDEA
@@ -144,3 +144,4 @@ Orange Digital Center Egypt × Instant Software Solutions
 ---
 
 ⭐ If you found this project useful, feel free to star the repository.
+
